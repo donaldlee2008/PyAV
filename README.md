@@ -48,6 +48,16 @@ make
 ```
 
 ---
+installing in windows
+1.download  shared and Dev  https://ffmpeg.zeranoe.com/builds/
+
+
+2.set INCLUDE=%INCLUDE%;d:\ffmpeg\include
+3.set LIB=%LIB%;d:\ffmpeg\lib
+4.set PATH=%PATH%;d:\ffmpeg\bin
+
+5.Build PyAV: python setup.py build
+6.Install it: python setup.py install
 
 Have fun, [read the docs][docs], [come chat with us][gitter], and good luck!
 
